@@ -1,6 +1,7 @@
 #!/bin/bash
 . createDB.sh
 . selectDB.sh
+. dropDB.sh
 
 Entry_Point(){
    
@@ -31,6 +32,7 @@ while true; do
             ;;
         3)
             whiptail --title "Drop DataBase"  10 60
+            Drop_DB
             ;;
         4)
             whiptail --title "Quit" --msgbox "Exiting the program." 10 60

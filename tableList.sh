@@ -8,7 +8,7 @@ ListOfTable(){
         "1" "Create Table" \
         "2" "Update Table" \
         "3" "Drop Table" \
-        "4" "Quit" 3>&1 1>&2 2>&3)
+        "4" "Back" 3>&1 1>&2 2>&3)
 
     case $choice in
         1)
@@ -24,8 +24,8 @@ ListOfTable(){
             whiptail --title "Drop Table"  10 60
             ;;
         4)
-            whiptail --title "Quit" --msgbox "Exiting To Main." 10 60
-            cd DataBase
+            whiptail --title "Back" --msgbox "Exiting To Main." 10 60
+            cd ../../
             break
             ;;
         *)
