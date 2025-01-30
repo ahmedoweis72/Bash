@@ -1,6 +1,7 @@
 #!/bin/bash
 . createDB.sh
 . selectDB.sh
+
 Entry_Point(){
    
     export NEWT_COLORS='
@@ -33,6 +34,7 @@ while true; do
             ;;
         4)
             whiptail --title "Quit" --msgbox "Exiting the program." 10 60
+            clear
             break
             ;;
         *)
