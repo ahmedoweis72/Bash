@@ -1,7 +1,7 @@
 #!/bin/bash
 . tableList.sh
+
 Select_DB() {
-    
 files=($(ls DataBase))
 
 if [ ${#files[@]} -eq 0 ]; then

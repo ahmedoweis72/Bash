@@ -1,0 +1,4 @@
+EmployeeID:int:pk
+Name:string:
+Position:string:
+Salary:int:

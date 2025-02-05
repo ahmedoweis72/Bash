@@ -1,0 +1,4 @@
+MemberID:int:pk
+Name:string:
+Email:string:
+JointDate:string:

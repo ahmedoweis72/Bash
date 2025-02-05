@@ -1,3 +1,5 @@
+#!/bin/bash
+
 Creat_DB() {
     DBName=$(whiptail --title "Create Database" --inputbox "Enter Database Name:" 10 60 3>&1 1>&2 2>&3)
 

@@ -1,0 +1,3 @@
+DepartmentID:int:pk
+Name:string:
+Location:string:

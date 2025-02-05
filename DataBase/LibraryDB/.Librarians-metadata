@@ -1,0 +1,4 @@
+LibrarianID:int:pk
+Name:string:
+Email:string:
+HireDate:string:

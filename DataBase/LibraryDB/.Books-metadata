@@ -1,0 +1,4 @@
+BookID:int:pk
+Title:string:
+Author:string:
+Genre:string:
